@@ -6,7 +6,7 @@
 <title>K.C. Industries · Automotive precision turned parts &amp; ball studs, Chennai</title>
 <meta name="description" content="IATF 16949:2016, ISO 9001:2015 and ZED-Silver certified manufacturer of precision machined components for Automobile, Aerospace, Electrical &amp; Electronics and Defence sectors, Chennai, since 1983. Precision turned parts, ball studs, ball pin rivets, fasteners, pins and shafts for passenger vehicles, commercial vehicles and EVs.">
 <meta name="keywords" content="automotive turned components, ball studs, ball pin rivets, automotive fasteners, pins and shafts, Tier-2 automotive supplier, IATF 16949, CNC turning Chennai, Swiss-type turning, EV components">
-<meta name="theme-color" content="#FFFFFF">
+<meta name="theme-color" content="#0B1220">
 <link rel="icon" href="kci-logo.png">
 
 <meta property="og:type" content="website">
@@ -21,8 +21,9 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<script>document.documentElement.classList.add('js');</script>
 
 <script type="application/ld+json">
 {
@@ -46,20 +47,40 @@
 <body>
 <a class="skip" href="#main">Skip to content</a>
 
-<header class="site-header">
+<!-- Icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-award" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M9 14.5 7.5 22 12 19.5 16.5 22 15 14.5"/><path d="m9.5 9 1.8 1.8L14.8 7.3"/></g></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/></g></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></g></symbol>
+    <symbol id="i-gauge" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 17a9 9 0 1 1 17 0"/><path d="m12 13 4-5"/><circle cx="12" cy="13.5" r="1.4"/></g></symbol>
+    <symbol id="i-scan" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8V5a1 1 0 0 1 1-1h3M16 4h3a1 1 0 0 1 1 1v3M20 16v3a1 1 0 0 1-1 1h-3M8 20H5a1 1 0 0 1-1-1v-3"/><rect x="8" y="8" width="8" height="8" rx="1.5"/></g></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21Z"/><circle cx="12" cy="9.5" r="2.5"/></g></symbol>
+    <symbol id="i-factory" viewBox="0 0 24 24"><path d="M3 21V10l6 4v-4l6 4V4h6v17H3Zm4-4h2m4 0h2" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-user" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></g></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></g></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V5a1 1 0 0 1 1-1h10"/></g></symbol>
+    <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7l1-8Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<header class="site-header" id="site-header">
   <div class="wrap nav">
     <a class="brand" href="#top" aria-label="K.C. Industries, back to top">
       <img class="brand-logo" src="kci-logo.png" alt="" width="64" height="32">
       <span class="brand-text">
-        <span class="brand-name">K.C. INDUSTRIES</span>
-        <span class="brand-sub">PRECISION COMPONENTS</span>
+        <span class="brand-name">K.C. Industries</span>
+        <span class="brand-sub">Precision Components</span>
       </span>
     </a>
     <button class="menu-btn" id="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
     </button>
     <nav class="nav-links" id="nav-links" aria-label="Main">
-      <a href="#why">Why KCI</a>
+      <a href="#why">About</a>
       <a href="#products">Products</a>
       <a href="#process">Process</a>
       <a href="#machines">Machine shop</a>
@@ -71,118 +92,98 @@
 </header>
 
 <main id="main">
-  <!-- 1 · HERO -->
+  <!-- HERO -->
   <section class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true"></div>
     <div class="wrap hero-grid">
       <div class="hero-copy">
-        <p class="kicker"><span class="tag">OEM · TIER 1 · TIER 2</span> AUTOMOBILE · AEROSPACE · ELECTRICAL &amp; ELECTRONICS · DEFENCE</p>
-        <h1>K.C. Industries</h1>
-        <p class="hero-lead">Manufacturer of components catering to Automobile, Aerospace, Electrical &amp; Electronics and Defence sectors in OEM, Tier 1 and Tier 2 customers.</p>
-        <ul class="hero-points">
-          <li>Precision machined components, especially Ball Stud, Ball Pin Rivets &amp; Hydraulic Fitting</li>
-          <li>Sheet metal components, dies, fixtures and fabrication</li>
-          <li>Hydraulic cylinders and hydraulic power press machines</li>
-        </ul>
-        <p class="hero-lead">We are pioneers in machined components with Traub machines, started in 1983, and continue to serve industry by upgrading to the latest machinery in production and quality, offering customers the best prices within committed time schedules.</p>
-        <p class="hero-lead">We are an ISO 9001:2015, IATF 16949:2016 &amp; ZED-Silver certified company. Our team includes certified Lean Six Sigma Black Belt employees, and we deploy the 7 QC tools and 5 core quality tools (APQP, FMEA, PPAP, SPC and MSA) to achieve the highest customer satisfaction, with a quality target of 0 PPM.</p>
+        <p class="pill"><span class="pill-dot"></span>OEM · Tier 1 · Tier 2 supplier since 1983</p>
+        <h1>Precision machined components, <span class="grad">built to your drawing.</span></h1>
+        <p class="hero-lead">K.C. Industries manufactures components catering to Automobile, Aerospace, Electrical &amp; Electronics and Defence sectors for OEM, Tier 1 and Tier 2 customers.</p>
         <div class="hero-ctas">
-          <a class="btn btn-primary" href="#contact">Send us your drawing</a>
-          <a class="btn btn-ghost" href="#products">See the product range</a>
+          <a class="btn btn-primary btn-lg" href="#contact">Send us your drawing <svg width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-outline-light btn-lg" href="#products">See the product range</a>
         </div>
+        <ul class="sectors" aria-label="Sectors served">
+          <li>Automobile</li><li>Aerospace</li><li>Electrical &amp; Electronics</li><li>Defence</li>
+        </ul>
       </div>
 
-      <figure class="drawing" aria-label="Line drawing of a ball stud">
-        <svg viewBox="0 50 370 200" role="img" aria-labelledby="dwg-t">
-          <title id="dwg-t">Technical line drawing of a ball stud, side elevation</title>
-          <g class="dwg-centre"><path d="M20 150H340"/></g>
-          <g class="dwg-part">
-            <circle cx="88" cy="150" r="46"/>
-            <path d="M128 128H150L162 136H250V164H162L150 172H128"/>
-            <path d="M150 128V172"/>
-            <path d="M250 140H316V160H250"/>
-            <path d="M262 140V160M274 140V160M286 140V160M298 140V160M310 140V160" class="dwg-thread"/>
-          </g>
-          <g class="dwg-dim">
-            <path d="M42 222V200M134 222V200"/>
-            <path d="M46 214H130"/><path d="M46 214l7-3v6zM130 214l-7-3v6z" class="dwg-arrow"/>
-            <text x="88" y="236">A</text>
-            <path d="M162 92V124M316 92V136"/>
-            <path d="M166 100H312"/><path d="M166 100l7-3v6zM312 100l-7-3v6z" class="dwg-arrow"/>
-            <text x="239" y="88">B</text>
-            <path d="M330 140H346M330 160H346"/>
-            <path d="M340 118V140M340 182V160"/><path d="M340 140l-3-7h6zM340 160l-3 7h6z" class="dwg-arrow"/>
-            <text x="350" y="154">C</text>
-          </g>
-          <g class="dwg-label">
-            <path d="M120 116L150 66H200"/>
-            <text x="204" y="70">SPHERE · GROUND</text>
-          </g>
-        </svg>
-        <figcaption><span>DWG · BALL STUD</span><span>SIDE ELEVATION · NTS</span></figcaption>
-      </figure>
-    </div>
-
-    <div class="wrap">
-      <dl class="stats">
-        <div class="stat"><dt>Sq.ft manufacturing area</dt><dd>20,000</dd></div>
-        <div class="stat"><dt>Employees</dt><dd>50+</dd></div>
-        <div class="stat"><dt>Components per month</dt><dd>1M+</dd></div>
-        <div class="stat"><dt>Machines</dt><dd>40+</dd></div>
-        <div class="stat"><dt>Customers</dt><dd>20+</dd></div>
-      </dl>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hv-card hv-main"><img src="pins-studs.jpg" alt="" width="800" height="600"></div>
+        <div class="hv-card hv-a"><img src="brass-turned.jpg" alt="" width="800" height="600"></div>
+        <div class="hv-card hv-b"><img src="hydraulic-cylinders.jpg" alt="" width="800" height="597"></div>
+        <div class="hv-badge hv-badge-1"><svg width="20" height="20"><use href="#i-award"/></svg><span><b>IATF 16949:2016</b><small>Certified</small></span></div>
+        <div class="hv-badge hv-badge-2"><svg width="20" height="20"><use href="#i-target"/></svg><span><b>0 PPM</b><small>Quality target</small></span></div>
+      </div>
     </div>
   </section>
 
-  <!-- 2 · CERTIFICATIONS -->
+  <!-- STATS -->
+  <div class="wrap stats-wrap">
+    <dl class="stats reveal">
+      <div class="stat"><dt>Sq.ft manufacturing area</dt><dd data-count="20000" data-format="comma">20,000</dd></div>
+      <div class="stat"><dt>Employees</dt><dd data-count="50" data-suffix="+">50+</dd></div>
+      <div class="stat"><dt>Components per month</dt><dd data-count="1" data-suffix="M+">1M+</dd></div>
+      <div class="stat"><dt>Machines</dt><dd data-count="40" data-suffix="+">40+</dd></div>
+      <div class="stat"><dt>Customers</dt><dd data-count="20" data-suffix="+">20+</dd></div>
+    </dl>
+  </div>
+
+  <!-- CERTIFICATIONS -->
   <section class="certs" aria-label="Certifications">
     <div class="wrap certs-row">
-      <span class="certs-label">CERTIFIED QUALITY SYSTEMS</span>
+      <span class="certs-label">Certified quality systems</span>
       <ul class="cert-list">
-        <li class="cert cert-main">
-          <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M9 14.5 7.5 22 12 19.5 16.5 22 15 14.5"/><path d="m9.5 9 1.8 1.8L14.8 7.3"/></svg>
-          <span><b>IATF 16949:2016</b><small>Automotive quality management</small></span>
-        </li>
-        <li class="cert">
-          <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M9 14.5 7.5 22 12 19.5 16.5 22 15 14.5"/><path d="m9.5 9 1.8 1.8L14.8 7.3"/></svg>
-          <span><b>ISO 9001:2015</b><small>Quality management</small></span>
-        </li>
-        <li class="cert">
-          <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="6"/><path d="M9 14.5 7.5 22 12 19.5 16.5 22 15 14.5"/><path d="m9.5 9 1.8 1.8L14.8 7.3"/></svg>
-          <span><b>ZED – Silver</b><small>Zero Defect Zero Effect</small></span>
-        </li>
+        <li class="cert"><span class="cert-ico"><svg width="24" height="24"><use href="#i-award"/></svg></span><span><b>IATF 16949:2016</b><small>Automotive quality management</small></span></li>
+        <li class="cert"><span class="cert-ico"><svg width="24" height="24"><use href="#i-award"/></svg></span><span><b>ISO 9001:2015</b><small>Quality management</small></span></li>
+        <li class="cert"><span class="cert-ico"><svg width="24" height="24"><use href="#i-award"/></svg></span><span><b>ZED – Silver</b><small>Zero Defect Zero Effect</small></span></li>
       </ul>
     </div>
   </section>
 
-  <!-- 3 · WHY KCI -->
+  <!-- ABOUT / WHY KCI -->
   <section class="section" id="why" aria-labelledby="why-h">
     <div class="wrap">
-      <header class="sec-head">
-        <span class="sec-no">01</span>
-        <div>
-          <p class="eyebrow">Why KCI</p>
+      <div class="about-grid">
+        <div class="reveal">
+          <p class="eyebrow">About K.C. Industries</p>
           <h2 id="why-h">A partner for OEM, Tier 1 and Tier 2 programmes.</h2>
-        </div>
-      </header>
+          <p class="body-lg">We are pioneers in machined components with Traub machines, started in 1983, and continue to serve industry by upgrading to the latest machinery in production and quality, offering customers the best prices within committed time schedules.</p>
+          <p class="body-lg">We are an ISO 9001:2015, IATF 16949:2016 &amp; ZED-Silver certified company. Our team includes certified Lean Six Sigma Black Belt employees, and we deploy the 7 QC tools and 5 core quality tools (APQP, FMEA, PPAP, SPC and MSA) to achieve the highest customer satisfaction, with a quality target of 0 PPM.</p>
 
-      <div class="why-intro">
-        <p>Since 1983 we have supplied OEM, Tier 1 and Tier 2 customers across automobile, aerospace, electrical &amp; electronics and defence, and we specialise in <strong>ball studs and ball pin rivets</strong>.</p>
-        <ul class="hero-points">
-          <li>Turning, milling, forming, grinding and thread rolling for tighter control of quality and lead time</li>
-          <li>Raw material – ferrous and non-ferrous</li>
-          <li>Heat treatment and surface treatment</li>
-          <li>40+ machines, including 5-axis Swiss sliding head, CNC lathes and milling</li>
-          <li>Bar feeder and automation systems, Traub auto lathes for high-volume turned and stamping parts</li>
-          <li>Capacity for volume at competitive prices</li>
-        </ul>
+          <div class="offer">
+            <h3 class="mini-h">What we make</h3>
+            <ul class="offer-list">
+              <li><span class="offer-n">01</span>Precision machined components, especially Ball Stud, Ball Pin Rivets &amp; Hydraulic Fitting</li>
+              <li><span class="offer-n">02</span>Sheet metal components, dies, fixtures and fabrication</li>
+              <li><span class="offer-n">03</span>Hydraulic cylinders and hydraulic power press machines</li>
+            </ul>
+          </div>
+        </div>
+
+        <aside class="cap-card reveal">
+          <h3>Why KCI</h3>
+          <p class="cap-intro">Since 1983 we have supplied OEM, Tier 1 and Tier 2 customers across automobile, aerospace, electrical &amp; electronics and defence, and we specialise in <strong>ball studs and ball pin rivets</strong>.</p>
+          <ul class="check-list">
+            <li><svg width="18" height="18"><use href="#i-check"/></svg>Turning, milling, forming, grinding and thread rolling for tighter control of quality and lead time</li>
+            <li><svg width="18" height="18"><use href="#i-check"/></svg>Raw material – ferrous and non-ferrous</li>
+            <li><svg width="18" height="18"><use href="#i-check"/></svg>Heat treatment and surface treatment</li>
+            <li><svg width="18" height="18"><use href="#i-check"/></svg>40+ machines, including 5-axis Swiss sliding head, CNC lathes and milling</li>
+            <li><svg width="18" height="18"><use href="#i-check"/></svg>Bar feeder and automation systems, Traub auto lathes for high-volume turned and stamping parts</li>
+            <li><svg width="18" height="18"><use href="#i-check"/></svg>Capacity for volume at competitive prices</li>
+          </ul>
+        </aside>
       </div>
 
-            <div class="va">
-        <div class="va-card">
+      <div class="va">
+        <div class="va-card reveal">
+          <span class="va-ico"><svg width="24" height="24"><use href="#i-eye"/></svg></span>
           <h3>Vision</h3>
           <p>Supply parts that meet every customer requirement, never miss a scheduled delivery, and keep improving continually.</p>
         </div>
-        <div class="va-card">
+        <div class="va-card va-dark reveal">
+          <span class="va-ico"><svg width="24" height="24"><use href="#i-target"/></svg></span>
           <h3>Aim</h3>
           <p>Long-term, stable relationships with OEM and Tier-1 customers, built on real engineering solutions, reliability and maximum customer satisfaction.</p>
         </div>
@@ -190,11 +191,10 @@
     </div>
   </section>
 
-  <!-- 4 · PRODUCTS -->
+  <!-- PRODUCTS -->
   <section class="section band" id="products" aria-labelledby="prod-h">
     <div class="wrap">
-      <header class="sec-head">
-        <span class="sec-no">02</span>
+      <header class="sec-head reveal">
         <div>
           <p class="eyebrow">Product range</p>
           <h2 id="prod-h">Components for vehicle assemblies.</h2>
@@ -202,7 +202,7 @@
         <p class="lead">Made to your drawing, in the quantities your production schedule needs.</p>
       </header>
 
-      <ul class="chips" aria-label="Product families">
+      <ul class="chips reveal" aria-label="Product families">
         <li>Precision turned components</li>
         <li>Ball studs</li>
         <li>Ball pin rivets</li>
@@ -215,51 +215,50 @@
       </ul>
 
       <div class="gallery">
-        <figure class="part">
+        <figure class="part reveal">
           <div class="plate"><img src="pins-studs.jpg" alt="Machined steel pins, studs and shafts" width="800" height="600" loading="lazy"></div>
           <figcaption><span class="ref">P-01</span><b>Ball studs, pins &amp; shafts</b><span>For suspension and steering linkages</span></figcaption>
         </figure>
-        <figure class="part">
+        <figure class="part reveal">
           <div class="plate"><img src="brass-turned.jpg" alt="Brass turned fittings, connectors and pins" width="800" height="600" loading="lazy"></div>
           <figcaption><span class="ref">P-02</span><b>Turned brass fittings</b><span>Connectors, inserts and pins for vehicle systems</span></figcaption>
         </figure>
-        <figure class="part">
+        <figure class="part reveal">
           <div class="plate"><img src="machined-steel.jpg" alt="CNC machined steel bushes, spacers and shafts" width="800" height="600" loading="lazy"></div>
           <figcaption><span class="ref">P-03</span><b>CNC machined steel parts</b><span>Bushes, spacers and shafts to drawing</span></figcaption>
         </figure>
-        <figure class="part">
+        <figure class="part reveal">
           <div class="plate"><img src="fasteners.jpg" alt="Assorted nuts, washers and fasteners" width="800" height="600" loading="lazy"></div>
           <figcaption><span class="ref">P-04</span><b>Automotive fasteners</b><span>Nuts, washers and threaded parts</span></figcaption>
         </figure>
-        <figure class="part">
+        <figure class="part reveal">
           <div class="plate"><img src="assemblies.jpg" alt="Mixed turned and milled steel and brass components" width="800" height="600" loading="lazy"></div>
           <figcaption><span class="ref">P-05</span><b>Turned &amp; milled components</b><span>Multi-operation parts for sub-assemblies</span></figcaption>
         </figure>
-        <figure class="part">
+        <figure class="part reveal">
           <div class="plate"><img src="sheet-metal.jpg" alt="Formed sheet-metal brackets" width="800" height="600" loading="lazy"></div>
           <figcaption><span class="ref">P-06</span><b>Sheet-metal brackets</b><span>Supporting fabrication for mounting parts</span></figcaption>
         </figure>
-        <figure class="part">
-          <div class="plate"><img src="hydraulic-cylinders.jpg" alt="Three hydraulic cylinders with clevis mounting eyes" width="800" height="600" loading="lazy"></div>
+        <figure class="part reveal">
+          <div class="plate"><img src="hydraulic-cylinders.jpg" alt="Three hydraulic cylinders with clevis mounting eyes" width="800" height="597" loading="lazy"></div>
           <figcaption><span class="ref">P-07</span><b>Hydraulic cylinders</b><span>Machined barrels, rods and clevis ends</span></figcaption>
         </figure>
-        <figure class="part">
-          <div class="plate"><img src="dies-fixtures.jpg" alt="Press die set and machining fixture" width="800" height="600" loading="lazy"></div>
+        <figure class="part reveal">
+          <div class="plate"><img src="dies-fixtures.jpg" alt="Press die set and machining fixture" width="800" height="597" loading="lazy"></div>
           <figcaption><span class="ref">P-08</span><b>Dies &amp; fixtures</b><span>Press tools and fixtures built to your part</span></figcaption>
         </figure>
-        <figure class="part">
-          <div class="plate"><img src="power-press.jpg" alt="Four-column hydraulic power press machine" width="800" height="600" loading="lazy"></div>
+        <figure class="part reveal">
+          <div class="plate"><img src="power-press.jpg" alt="Four-column hydraulic power press machine" width="800" height="597" loading="lazy"></div>
           <figcaption><span class="ref">P-09</span><b>Hydraulic power press machines</b><span>Four-column presses with control panel</span></figcaption>
         </figure>
       </div>
     </div>
   </section>
 
-  <!-- 5 · PROCESS -->
+  <!-- PROCESS -->
   <section class="section" id="process" aria-labelledby="proc-h">
     <div class="wrap">
-      <header class="sec-head">
-        <span class="sec-no">03</span>
+      <header class="sec-head reveal">
         <div>
           <p class="eyebrow">Process flow</p>
           <h2 id="proc-h">From bar stock to inspected part.</h2>
@@ -267,8 +266,8 @@
         <p class="lead">A typical route through our shop. Each part uses only the operations its drawing calls for.</p>
       </header>
 
-      <ol class="flow">
-        <li><span class="fn">IN</span><b>Bar stock</b><span>Raw material in</span></li>
+      <ol class="flow reveal">
+        <li class="flow-io"><span class="fn">IN</span><b>Bar stock</b><span>Raw material in</span></li>
         <li><span class="fn">01</span><b>Turning</b><span>CNC, Swiss-type &amp; auto lathes</span></li>
         <li><span class="fn">02</span><b>Milling</b><span>Flats, slots &amp; cross features</span></li>
         <li><span class="fn">03</span><b>Forming</b><span>Shaping &amp; profiles</span></li>
@@ -276,17 +275,16 @@
         <li><span class="fn">05</span><b>Grinding</b><span>Centreless grinding</span></li>
         <li><span class="fn">06</span><b>Heat treatment</b><span>To the specified hardness</span></li>
         <li><span class="fn">07</span><b>Surface treatment</b><span>Finish &amp; protection</span></li>
-        <li class="flow-out"><span class="fn">OUT</span><b>Inspected part</b><span>Checked with instruments &amp; gauges</span></li>
+        <li class="flow-io"><span class="fn">OUT</span><b>Inspected part</b><span>Checked with instruments &amp; gauges</span></li>
       </ol>
-      <p class="note">Supporting operations: drilling, tapping, barrelling, slitting, and sheet-metal fabrication with welding for brackets.</p>
+      <p class="note reveal"><svg width="18" height="18" aria-hidden="true"><use href="#i-bolt"/></svg><span>Supporting operations: drilling, tapping, barrelling, slitting, and sheet-metal fabrication with welding for brackets.</span></p>
     </div>
   </section>
 
-  <!-- 6 · MACHINES -->
+  <!-- MACHINES -->
   <section class="section band" id="machines" aria-labelledby="mach-h">
     <div class="wrap">
-      <header class="sec-head">
-        <span class="sec-no">04</span>
+      <header class="sec-head reveal">
         <div>
           <p class="eyebrow">Machine shop</p>
           <h2 id="mach-h">Built for volume and tight tolerance.</h2>
@@ -294,7 +292,7 @@
         <p class="lead">A Tsugami Swiss-type sliding head, CNC lathes from Jothi and Geedee Weiler, Traub auto lathes, centreless grinding and thread rolling.</p>
       </header>
 
-      <div class="table-box">
+      <div class="table-box reveal">
         <table class="mtable">
           <caption class="sr-only">Machine list with capacity, make and quantity</caption>
           <thead><tr><th scope="col">No.</th><th scope="col">Machine</th><th scope="col">Capacity</th><th scope="col">Make</th><th scope="col" class="qty">Qty</th></tr></thead>
@@ -305,66 +303,68 @@
     </div>
   </section>
 
-  <!-- 7 · QUALITY -->
+  <!-- QUALITY -->
   <section class="section" id="quality" aria-labelledby="qual-h">
     <div class="wrap">
-      <header class="sec-head">
-        <span class="sec-no">05</span>
+      <header class="sec-head reveal">
         <div>
           <p class="eyebrow">Quality &amp; inspection</p>
           <h2 id="qual-h">An automotive quality system, on the shop floor.</h2>
         </div>
+        <p class="lead">7 QC tools and the 5 core tools — APQP, FMEA, PPAP, SPC and MSA — working toward a 0 PPM target.</p>
       </header>
 
       <div class="q-grid">
-        <div class="q-card">
-          <span class="q-tag">CERTIFIED</span>
+        <div class="q-card reveal">
+          <div class="q-top"><span class="q-ico"><svg width="24" height="24"><use href="#i-award"/></svg></span><span class="q-tag">Certified</span></div>
           <h3>IATF 16949:2016</h3>
           <p>Our quality management system is certified to the automotive standard, alongside ISO 9001:2015.</p>
         </div>
-        <div class="q-card">
-          <span class="q-tag">IN USE</span>
+        <div class="q-card reveal">
+          <div class="q-top"><span class="q-ico"><svg width="24" height="24"><use href="#i-gauge"/></svg></span><span class="q-tag">In use</span></div>
           <h3>Instruments &amp; gauges</h3>
           <p>A full range of measuring instruments and gauges for in-process and final inspection.</p>
         </div>
-        <div class="q-card q-next">
-          <span class="q-tag">JUNE 2027</span>
+        <div class="q-card q-next reveal">
+          <div class="q-top"><span class="q-ico"><svg width="24" height="24"><use href="#i-scan"/></svg></span><span class="q-tag">June 2027</span></div>
           <h3>CMM / VMS</h3>
           <p>A coordinate measuring machine / vision measuring system is planned, for tighter inspection of complex parts.</p>
         </div>
       </div>
+
+      <ul class="tools reveal" aria-label="Core quality tools">
+        <li>APQP</li><li>FMEA</li><li>PPAP</li><li>SPC</li><li>MSA</li><li>7 QC tools</li><li>Lean Six Sigma Black Belt</li>
+      </ul>
     </div>
   </section>
 
-  <!-- 8 · CUSTOMERS -->
+  <!-- CUSTOMERS -->
   <section class="section band" id="customers" aria-labelledby="cust-h">
     <div class="wrap">
-      <header class="sec-head">
-        <span class="sec-no">06</span>
+      <header class="sec-head reveal">
         <div>
           <p class="eyebrow">Trusted by</p>
           <h2 id="cust-h">Supplying the automotive supply chain.</h2>
         </div>
       </header>
       <ul class="clients">
-        <li>Suspa Pneumatics India Pvt Ltd</li>
-        <li>Electromags</li>
-        <li>Advanced Anmol Metcomp Pvt Ltd</li>
-        <li>Baliga Lighting Equipment Pvt Ltd</li>
-        <li>SGI Automotive Pvt Ltd</li>
-        <li>SVPC Auto Components Pvt Ltd</li>
-        <li>PM Techno Pvt Ltd</li>
-        <li class="ev">Roots Industries India Ltd <span class="ev-tag">EV Division</span></li>
-        <li>Adient India Pvt Ltd</li>
+        <li class="reveal">Suspa Pneumatics India Pvt Ltd</li>
+        <li class="reveal">Electromags</li>
+        <li class="reveal">Advanced Anmol Metcomp Pvt Ltd</li>
+        <li class="reveal">Baliga Lighting Equipment Pvt Ltd</li>
+        <li class="reveal">SGI Automotive Pvt Ltd</li>
+        <li class="reveal">SVPC Auto Components Pvt Ltd</li>
+        <li class="reveal">PM Techno Pvt Ltd</li>
+        <li class="reveal ev">Roots Industries India Ltd <span class="ev-tag">EV Division</span></li>
+        <li class="reveal">Adient India Pvt Ltd</li>
       </ul>
     </div>
   </section>
 
-  <!-- 9 · ROADMAP -->
+  <!-- ROADMAP -->
   <section class="section" id="roadmap" aria-labelledby="road-h">
     <div class="wrap">
-      <header class="sec-head">
-        <span class="sec-no">07</span>
+      <header class="sec-head reveal">
         <div>
           <p class="eyebrow">Capacity roadmap</p>
           <h2 id="road-h">Investing in capacity.</h2>
@@ -372,45 +372,49 @@
         <p class="lead">New CNC capacity and metrology, so we can take on larger diameters, more complex parts and tighter inspection.</p>
       </header>
       <ol class="plan">
-        <li><time datetime="2026-12">DEC 2026</time><div><b>CNC turning centre, 200 mm dia.</b><span>Production · 1 no.</span></div></li>
-        <li><time datetime="2027-06">JUN 2027</time><div><b>Tsugami CNC sliding head, 26 mm, 5-axis</b><span>Production · 2 nos.</span></div></li>
-        <li><time datetime="2027-06">JUN 2027</time><div><b>CMM / VMS</b><span>Quality · 1 no.</span></div></li>
+        <li class="reveal"><time datetime="2026-12">Dec 2026</time><b>CNC turning centre, 200 mm dia.</b><span>Production · 1 no.</span></li>
+        <li class="reveal"><time datetime="2027-06">Jun 2027</time><b>Tsugami CNC sliding head, 26 mm, 5-axis</b><span>Production · 2 nos.</span></li>
+        <li class="reveal"><time datetime="2027-06">Jun 2027</time><b>CMM / VMS</b><span>Quality · 1 no.</span></li>
       </ol>
     </div>
   </section>
 
-  <!-- 10 · CONTACT -->
+  <!-- CONTACT -->
   <section class="section contact" id="contact" aria-labelledby="contact-h">
     <div class="wrap">
-      <div class="rfq">
+      <div class="rfq reveal">
         <div>
-          <p class="eyebrow">Request for quotation</p>
+          <p class="eyebrow eyebrow-light">Request for quotation</p>
           <h2 id="contact-h">Send us your drawing.</h2>
           <p class="lead">Email your part drawing with the material, annual volume and vehicle programme, and we'll come back with a quote.</p>
         </div>
-        <a class="btn btn-primary btn-lg" href="mailto:neelaakn@gmail.com?subject=RFQ%20%E2%80%93%20automotive%20component&amp;body=Part%20name%20%2F%20drawing%20no.%3A%0AMaterial%3A%0AAnnual%20volume%3A%0AVehicle%20programme%3A%0A%0A(Please%20attach%20the%20drawing.)">Email an RFQ</a>
+        <a class="btn btn-white btn-lg" href="mailto:neelaakn@gmail.com?subject=RFQ%20%E2%80%93%20automotive%20component&amp;body=Part%20name%20%2F%20drawing%20no.%3A%0AMaterial%3A%0AAnnual%20volume%3A%0AVehicle%20programme%3A%0A%0A(Please%20attach%20the%20drawing.)"><svg width="18" height="18" aria-hidden="true"><use href="#i-mail"/></svg>Email an RFQ</a>
       </div>
 
       <div class="people">
-        <div class="person">
+        <div class="person reveal">
+          <span class="p-ico"><svg width="20" height="20" aria-hidden="true"><use href="#i-user"/></svg></span>
           <h3>Proprietor</h3>
           <span class="who">C. Asokan</span>
-          <div class="line"><a class="val" href="tel:+919962376743">+91 99623 76743</a><button class="copy" type="button" data-copy="+91 99623 76743" aria-label="Copy phone number for C. Asokan"><svg class="i-copy" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="1"/><path d="M5 15V5a1 1 0 0 1 1-1h10"/></svg><svg class="i-ok" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L19 7"/></svg></button></div>
+          <div class="line"><a class="val" href="tel:+919962376743">+91 99623 76743</a><button class="copy" type="button" data-copy="+91 99623 76743" aria-label="Copy phone number for C. Asokan"><svg class="i-copy" width="16" height="16" aria-hidden="true"><use href="#i-copy"/></svg><svg class="i-ok" width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg></button></div>
         </div>
-        <div class="person">
+        <div class="person reveal">
+          <span class="p-ico"><svg width="20" height="20" aria-hidden="true"><use href="#i-phone"/></svg></span>
           <h3>Executive</h3>
           <span class="who">A. Neelagandan</span>
-          <div class="line"><a class="val" href="tel:+919176343480">+91 91763 43480</a><button class="copy" type="button" data-copy="+91 91763 43480" aria-label="Copy phone number for A. Neelagandan"><svg class="i-copy" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="1"/><path d="M5 15V5a1 1 0 0 1 1-1h10"/></svg><svg class="i-ok" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L19 7"/></svg></button></div>
+          <div class="line"><a class="val" href="tel:+919176343480">+91 91763 43480</a><button class="copy" type="button" data-copy="+91 91763 43480" aria-label="Copy phone number for A. Neelagandan"><svg class="i-copy" width="16" height="16" aria-hidden="true"><use href="#i-copy"/></svg><svg class="i-ok" width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg></button></div>
         </div>
-        <div class="person">
+        <div class="person reveal">
+          <span class="p-ico"><svg width="20" height="20" aria-hidden="true"><use href="#i-pin"/></svg></span>
           <h3>Office</h3>
           <address>No. 8 Muthaiya Nagar,<br>Medavakkam Main Road,<br>Kovilambakkam,<br>Chennai – 600 117</address>
-          <div class="line"><a class="val small" href="mailto:neelaakn@gmail.com">neelaakn@gmail.com</a><button class="copy" type="button" data-copy="neelaakn@gmail.com" aria-label="Copy office email"><svg class="i-copy" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="1"/><path d="M5 15V5a1 1 0 0 1 1-1h10"/></svg><svg class="i-ok" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L19 7"/></svg></button></div>
+          <div class="line"><a class="val small" href="mailto:neelaakn@gmail.com">neelaakn@gmail.com</a><button class="copy" type="button" data-copy="neelaakn@gmail.com" aria-label="Copy office email"><svg class="i-copy" width="16" height="16" aria-hidden="true"><use href="#i-copy"/></svg><svg class="i-ok" width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg></button></div>
         </div>
-        <div class="person">
+        <div class="person reveal">
+          <span class="p-ico"><svg width="20" height="20" aria-hidden="true"><use href="#i-factory"/></svg></span>
           <h3>Factory</h3>
           <address>No. 142/B, Kilambi Village,<br>Krishnapuram,<br>Kancheepuram,<br>Chennai – 631 551</address>
-          <div class="line"><a class="val small" href="mailto:bala.kcindus@gmail.com">bala.kcindus@gmail.com</a><button class="copy" type="button" data-copy="bala.kcindus@gmail.com" aria-label="Copy factory email"><svg class="i-copy" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="9" width="11" height="11" rx="1"/><path d="M5 15V5a1 1 0 0 1 1-1h10"/></svg><svg class="i-ok" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5L19 7"/></svg></button></div>
+          <div class="line"><a class="val small" href="mailto:bala.kcindus@gmail.com">bala.kcindus@gmail.com</a><button class="copy" type="button" data-copy="bala.kcindus@gmail.com" aria-label="Copy factory email"><svg class="i-copy" width="16" height="16" aria-hidden="true"><use href="#i-copy"/></svg><svg class="i-ok" width="16" height="16" aria-hidden="true"><use href="#i-check"/></svg></button></div>
         </div>
       </div>
       <p class="copy-status sr-only" id="copy-status" role="status" aria-live="polite"></p>
@@ -419,12 +423,29 @@
 </main>
 
 <footer class="site-footer">
-  <div class="wrap foot">
+  <div class="wrap foot-grid">
     <div class="foot-brand">
-      <img src="kci-logo.png" alt="KCI logo" width="56" height="28">
-      <span>© <span id="year">2026</span> K.C. Industries · Precision machined components · Chennai</span>
+      <div class="foot-logo"><img src="kci-logo.png" alt="KCI logo" width="56" height="28"><span>K.C. Industries</span></div>
+      <p>Precision machined components for Automobile, Aerospace, Electrical &amp; Electronics and Defence. Chennai, since 1983.</p>
     </div>
-    <span class="foot-certs">IATF 16949:2016 · ISO 9001:2015 · ZED – Silver</span>
+    <nav class="foot-col" aria-label="Footer">
+      <h3>Company</h3>
+      <a href="#why">About</a><a href="#products">Products</a><a href="#process">Process</a><a href="#machines">Machine shop</a><a href="#quality">Quality</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="foot-col">
+      <h3>Contact</h3>
+      <a href="tel:+919176343480">+91 91763 43480</a>
+      <a href="mailto:neelaakn@gmail.com">neelaakn@gmail.com</a>
+      <span>Kovilambakkam, Chennai – 600 117</span>
+    </div>
+    <div class="foot-col">
+      <h3>Certifications</h3>
+      <span>IATF 16949:2016</span><span>ISO 9001:2015</span><span>ZED – Silver</span>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">
+    <span>© <span id="year">2026</span> K.C. Industries. All rights reserved.</span>
+    <a href="#top">Back to top ↑</a>
   </div>
 </footer>
 
