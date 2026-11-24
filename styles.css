@@ -1,21 +1,21 @@
 /* K.C. Industries — automotive precision components
-   Dark graphite base, single KCI-red accent, drawing-sheet details. */
+   White base, single KCI-red accent, drawing-sheet details. */
 
 :root {
-  --bg: #0E1217;          /* graphite */
-  --bg-2: #131820;        /* band */
-  --panel: #161C24;
-  --panel-2: #1C232D;
-  --line: rgba(232, 235, 239, 0.12);
-  --line-strong: rgba(232, 235, 239, 0.24);
-  --grid: rgba(232, 235, 239, 0.035);
-  --text: #E8EBEF;
-  --muted: #98A3B0;
-  --faint: #5E6B7A;       /* decorative only */
+  --bg: #FFFFFF;          /* white */
+  --bg-2: #F5F6F8;        /* band */
+  --panel: #F5F6F8;
+  --panel-2: #ECEEF1;
+  --line: rgba(18, 26, 38, 0.12);
+  --line-strong: rgba(18, 26, 38, 0.28);
+  --grid: rgba(18, 26, 38, 0.05);
+  --text: #121A26;
+  --muted: #4A5666;
+  --faint: #8A95A3;       /* decorative only */
   --accent: #D42A1E;      /* KCI red, fills (white text 5.1:1) */
   --accent-hover: #B92016;
-  --accent-text: #FF6A5C; /* red text on dark (6:1+) */
-  --plate: #F2F3F5;
+  --accent-text: #C0241A; /* red text on white */
+  --plate: #FFFFFF;
 
   --f-display: "Barlow Condensed", "Arial Narrow", sans-serif;
   --f-body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -73,7 +73,7 @@ b, strong { font-weight: 600; }
 /* ---------- Header ---------- */
 .site-header {
   position: sticky; top: 0; z-index: 50;
-  background: rgba(14, 18, 23, 0.92);
+  background: rgba(255, 255, 255, 0.94);
   backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line);
 }
@@ -171,7 +171,7 @@ h2 { font-size: clamp(32px, 6vw, 52px); text-transform: none; }
 .drawing {
   margin: 0; position: relative;
   border: 1px solid var(--line-strong);
-  background: rgba(22, 28, 36, 0.7);
+  background: rgba(245, 246, 248, 0.9);
   padding: 20px 20px 0;
 }
 .drawing::before, .drawing::after {
@@ -206,14 +206,14 @@ h2 { font-size: clamp(32px, 6vw, 52px); text-transform: none; }
 .stat dd { margin: 0; font: 700 clamp(40px, 9vw, 60px)/1 var(--f-display); font-variant-numeric: tabular-nums; }
 .stat { display: flex; flex-direction: column-reverse; justify-content: flex-end; }
 @media (min-width: 760px) {
-  .stats { grid-template-columns: repeat(4, minmax(0, 1fr)); margin-top: 80px; }
+  .stats { grid-template-columns: repeat(5, minmax(0, 1fr)); margin-top: 80px; }
   .stat, .stat:nth-child(even) { padding: 26px 24px 30px; border-bottom: 0; border-right: 1px solid var(--line); }
   .stat:first-child { padding-left: 0; }
   .stat:last-child { border-right: 0; }
 }
 
 /* ---------- Certifications ---------- */
-.certs { background: var(--plate); color: #121A26; }
+.certs { background: var(--plate); color: #121A26; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .certs-row { display: flex; flex-wrap: wrap; align-items: center; gap: 16px 40px; padding-top: 22px; padding-bottom: 22px; }
 .certs-label { font: 500 12px/1.4 var(--f-mono); letter-spacing: 0.12em; color: #3A4552; }
 .cert-list { display: flex; flex-wrap: wrap; gap: 16px 36px; }
@@ -394,7 +394,7 @@ h2 { font-size: clamp(32px, 6vw, 52px); text-transform: none; }
 }
 .copy:hover { color: var(--text); border-color: var(--text); }
 .copy .i-ok { display: none; }
-.copy.done { color: #6FD39A; border-color: #6FD39A; }
+.copy.done { color: #1E7B46; border-color: #1E7B46; }
 .copy.done .i-copy { display: none; }
 .copy.done .i-ok { display: block; }
 
@@ -404,3 +404,8 @@ h2 { font-size: clamp(32px, 6vw, 52px); text-transform: none; }
 .foot-brand { display: flex; align-items: center; gap: 14px; color: var(--muted); font-size: 14px; }
 .foot-brand img { flex: none; }
 .foot-certs { font: 500 12.5px/1.4 var(--f-mono); color: var(--muted); letter-spacing: 0.08em; }
+
+/* Hero / intro bullet lists */
+.hero-points { margin: 18px 0; padding-left: 20px; list-style: disc; color: var(--muted); max-width: 60ch; }
+.hero-points li { margin-bottom: 6px; }
+.hero-copy .hero-lead + .hero-lead, .hero-points + .hero-lead { margin-top: 14px; }
